@@ -26,10 +26,10 @@ To perform automation in Kubernetes, we have to write manifest files.
 create a jump server or web-in host
 
 Launch an instance
-tarun-bastionhost
+ashwath-bastionhost
 Ubuntu 24.04 LTS
 t2.micro
-create key-pair : tarun-bastionhost RSA .ppk
+create key-pair : ashwath-bastionhost RSA .ppk
 30 gb storage
 
 We have to install kubectl, eksctl, aws cli
@@ -97,7 +97,7 @@ kubectl apply -f pod.yml
 kubectl get pods -o wide
 kubectl describe pod sample-pod
 
-git clone -b master https://github.com/TarunG8504/tarun-kubernetes-manifestfiles.git
+git clone -b master https://github.com/Ashwath-poojary/Ashwath-kubernetes-manifestfiles.git
 
 kubectl apply -f userprofile-deployment.yml
 kubectl apply -f usernode-js-service.yml

@@ -67,7 +67,7 @@ service httpd start
 service httpd status
 
 yum install git -y
-git clone -b master https://github.com/TarunG8504/Coursevita-Retail-Project.git
+git clone -b master https://github.com/Ashwath-poojary/Coursevita-Retail-Project.git
 
 cp -r . /var/www/html
 

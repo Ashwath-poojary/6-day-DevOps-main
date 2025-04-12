@@ -64,7 +64,7 @@ DOCKER FILE INSTRUCTIONS:
 11]USER : IF YOU WANT TO CREATE USER ACCOUNTS U ARE GOING TO USE USER INSTRUCTION.
 
 
-1] fork the repository -> clone to local machine -> open terminal -> git clone -b master https://github.com/Arnil10/Dimple-CapsuleProject.git
+1] fork the repository -> clone to local machine -> open terminal -> git clone -b master https://github.com/Ashwath-poojary/Dimple-CapsuleProject.git
 
 2] now in the server , clone the repo -> go inside the repo -> build a docker image -> see screenshots (inspect) -> hub.docker.com download -> see screenshots -> then push to docker hub -> 
 
@@ -88,4 +88,3 @@ define the expose port number,
 mention which code we have to run in a container.
 
 
-assignment for tomorrow:  
